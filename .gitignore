@@ -1,0 +1,14 @@
+# Input data: downloaded by each user, never committed (see data/README.md)
+data/*
+!data/README.md
+
+# Pipeline outputs
+results/
+
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.pytest_cache/
+.ipynb_checkpoints/
+.venv/
